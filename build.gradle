@@ -1,0 +1,13 @@
+apply plugin: 'application'
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+task wrapper(type: Wrapper) {
+	gradleVersion = '1.11'
+}
+
+version = '0.1'
+
+repositories {
+	mavenCentral()
+}

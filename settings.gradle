@@ -1,0 +1,2 @@
+
+include "openbiwiki-core", "openbiwiki-web", "openbiwiki-war"
