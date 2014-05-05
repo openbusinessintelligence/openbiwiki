@@ -2,6 +2,9 @@ apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'tomcat'
 
+sourceCompatibility = 1.7
+version = '0.1'
+
 buildscript {
     repositories {
         jcenter()
@@ -16,8 +19,6 @@ dependencies {
   compile project(':openbiwiki-core')
 }
 
-sourceCompatibility = 1.7
-version = '0.1'
 jar {
     manifest {
         attributes 'Implementation-Title': 'Open BI Wiki Web', 'Implementation-Version': version
